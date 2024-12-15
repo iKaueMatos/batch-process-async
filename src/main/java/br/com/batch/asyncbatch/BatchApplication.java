@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-public class SbProcessamentoAssincronoApplication {
+public class BatchApplication {
 
 	public static void main(String[] args) {
-		ConfigurableApplicationContext context = SpringApplication.run(SbProcessamentoAssincronoApplication.class, args);
+		ConfigurableApplicationContext context = SpringApplication.run(BatchApplication.class, args);
 		context.close();
 	}
 
